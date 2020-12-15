@@ -21,4 +21,5 @@ python -m pip install -r requirements.txt
 ```
 python FoodSuggestion.py
 ```
-
+ ## Screenshot
+ ![Food Suggestion Software](https://i.imgur.com/Dit7ivK.png)
