@@ -15,7 +15,7 @@ The software is used the kNN algorithm to analyze the input data (food) and outp
 ## Installation
 1. Install All Package for Project
 ```
-python pip install -r requirements.txt
+python -m pip install -r requirements.txt
 ```
 2. Run `FoodSuggestion.py`
 ```
