@@ -126,14 +126,15 @@ class Ui_FoodSuggestion(object):
         self.modelSearchList.removeRows( 0, self.modelSearchList.rowCount() )
         self.btnSuggestion.setEnabled(False)
         self.btnGoogleSearch.setEnabled(False)
-        self.btnClear.setEnabled(True)
         self.select_result = None
         self.seach_google = None
         product_name = self.txtSearch.text().strip()
-        self.find_result = self.NFOF.find(product_name)
-        for i in self.find_result:
-            item = QtGui.QStandardItem(i['name'])
-            self.modelSearchList.appendRow(item)
+        if product_name != "": 
+            self.btnClear.setEnabled(True)  
+            self.find_result = self.NFOF.find(product_name)
+            for i in self.find_result:
+                item = QtGui.QStandardItem(i['name'])
+                self.modelSearchList.appendRow(item)
             
     def selectSearchList(self, current, previous):
         self.select_result = self.find_result[current.row()]
