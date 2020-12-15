@@ -1,6 +1,6 @@
 # Food Suggestion
 
-## What is 'Food Suggestion'
+## What is 'Food Suggestion' ?
 The software is used the kNN algorithm to analyze the input data (food) and output the foods with the closest nutritional value.
 
 ## Infomation
