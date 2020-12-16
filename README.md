@@ -13,7 +13,7 @@ The software is used the kNN algorithm to analyze the input data (food) and outp
     - [baothientu0511](https://github.com/baothientu0511)
 
 ## Installation
-1. Install All Package for Project
+1. Install All Packages for Project
 ```
 python -m pip install -r requirements.txt
 ```
